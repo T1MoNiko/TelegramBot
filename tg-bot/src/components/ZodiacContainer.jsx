@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import ZodiacBlock from "./ZodiacBlock";
 import styles from "../styles/zodiacContainer.module.scss"
 import { LanContext } from "../App";

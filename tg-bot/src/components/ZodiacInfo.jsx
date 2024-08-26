@@ -29,7 +29,7 @@ const ZodiacInfo = () => {
 
     useEffect(() => {
         getData()
-    }, [])
+    })
 
     window.Telegram.WebApp.BackButton.show();
     window.Telegram.WebApp.BackButton.onClick(() => {

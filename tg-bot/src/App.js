@@ -84,7 +84,7 @@ const App = () => {
 
 
   return (
-    <LanContext.Provider value={{lan, setLan, zodiacs}}>
+    <LanContext.Provider value={{lan, setLan, zodiacs, setZodiacs}}>
       <Routes>
         <Route path='/' element={<ZodiacContainer/>}/>
         <Route path='/:zodiac' element={<ZodiacInfo/>}/>
