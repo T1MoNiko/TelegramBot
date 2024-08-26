@@ -1,11 +1,12 @@
 @import "./index.scss";
 
 .container {
-    margin-top: 40px;
     background-color: white;
+    min-height: 100vh;
     
     div {
         width: 60%;
+        margin-top: 40px;
         margin: 0 auto;
         padding: 20px;
         border-radius: 20px;
