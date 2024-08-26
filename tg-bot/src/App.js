@@ -2,7 +2,7 @@
 import { Route, Routes } from 'react-router-dom';
 import ZodiacContainer from './components/ZodiacContainer';
 import ZodiacInfo from './components/ZodiacInfo';
-import { createContext, useContext, useState } from 'react';
+import { createContext, useState } from 'react';
 export const LanContext = createContext(null)
 
 const App = () => {
