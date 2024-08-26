@@ -1,0 +1,25 @@
+@import "./index.scss";
+
+.zodiacBox {
+    box-shadow: 1px 2px 7px $shadow-color;
+    padding: 20px;
+    
+    p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    div {
+        text-align: center;
+        width: 100%;
+        margin: 20px 0;
+
+        img {
+            width: 20%;
+        }
+    }
+
+    .title {
+        font-size: 30px;
+    }
+}

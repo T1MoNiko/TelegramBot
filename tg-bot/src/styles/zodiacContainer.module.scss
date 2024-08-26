@@ -1,0 +1,44 @@
+@import "./index.scss";
+
+.zodiacContainer {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    @media (max-width: 1250px) {
+        padding: 0 20px ;
+    }
+    @media (max-width: 1000px) {
+        width: 60%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 650px) {
+        margin-top: 50px;
+        width: 100%;
+    }
+    @media (max-width: 405px) {
+        margin-top: 50px;
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}
+    
+
+main {
+    padding: 20px 0;
+    position: relative;
+}
+
+.lanBox {
+    position: absolute;
+    right: 20px;
+    box-shadow: 1px 2px 4px $shadow-color;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    option {
+        border: none;
+    }
+}
