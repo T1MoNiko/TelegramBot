@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import ZodiacBlock from "./ZodiacBlock";
 import styles from "../styles/zodiacContainer.module.scss"
 import { LanContext } from "../App";
@@ -10,6 +10,12 @@ const ZodiacContainer = () => {
         setLan(e.target.value)
         console.log(lan)
     }
+
+    useEffect(() => {
+        if (window.Telegram.WebApp.BackButton.isVisible) {
+            window.Telegram.WebApp.BackButton.hide()
+        }
+    }) 
 
     return (
         <main>  
