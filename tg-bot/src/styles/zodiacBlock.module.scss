@@ -1,9 +1,11 @@
 @import "./index.scss";
 
 .zodiacBox {
-    box-shadow: 1px 2px 7px $shadow-color;
+    box-shadow: 2px 3px 7px $shadow-color;
     padding: 20px;
-    background: white;
+    background: $content-back-color;
+    color: white;
+    border-radius: 20px;
     
     p {
         font-size: 16px;

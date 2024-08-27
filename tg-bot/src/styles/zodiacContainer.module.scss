@@ -38,7 +38,13 @@ main {
     text-align: center;
     border: none;
     outline: none;
+    background-color: $content-back-color;
+    color: white;
+    border-radius: 8px;
     option {
         border: none;
+        background-color: $content-back-color;
+        min-height: 40px;
+        display: block;
     }
 }
