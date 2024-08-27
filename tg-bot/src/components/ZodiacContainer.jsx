@@ -19,7 +19,7 @@ const ZodiacContainer = () => {
 
     return (
         <main>  
-            <select className={styles.lanBox} onChange={onChangeHandler}>
+            <select value={lan} className={styles.lanBox} onChange={onChangeHandler}>
                 <option value="ru">RU</option>
                 <option value="en">EN</option>
             </select>
