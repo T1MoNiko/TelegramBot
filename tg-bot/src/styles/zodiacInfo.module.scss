@@ -2,12 +2,11 @@
 
 .container {
     background-color: white;
-    min-height: 100vh;
-    
+
     div {
         width: 60%;
-        margin-top: 40px;
         margin: 0 auto;
+        margin-top: 40px;
         padding: 20px;
         border-radius: 20px;
         box-shadow: 1px 1px 5px 0px $shadow-color;
